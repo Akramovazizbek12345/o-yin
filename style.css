@@ -1,0 +1,65 @@
+body {
+	font-family: Arial, sans-serif;
+	background: #f0f2f5;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+}
+
+#gameArea {
+	background: white;
+	padding: 30px;
+	border-radius: 15px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	min-width: 300px;
+}
+
+h2 {
+	margin-bottom: 20px;
+}
+
+input {
+	padding: 10px;
+	font-size: 16px;
+	width: 80%;
+	margin-bottom: 15px;
+}
+
+.buttonlar_blue {
+	background-color: #0099ff;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	font-size: 16px;
+	margin: 5px;
+}
+
+.buttonlar_blue:hover {
+	background-color: #007acc;
+}
+
+#buttonlar {
+	margin-bottom: 30px;
+	display: inline-block;
+	flex-direction: column;
+	gap: 10px;
+}
+
+#katta_kichiklik,
+#imkoniyat {
+	margin-top: 10px;
+}
+
+#qaytish {
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	font-size: 18px;
+	padding: 5px;
+}

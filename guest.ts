@@ -19,11 +19,12 @@ button.onclick = function () {
   if (rando === userGuess) {
     apd.innerHTML = 'You win';
     apd.style.backgroundColor = 'black';
+    apd.style.color= 'white'
     first.remove();
     button.remove();
     pad.remove();
     dap.remove();
-    playagain.style.opacity = '100%';
+
   } else if (rando < userGuess) {
     dap.innerHTML = `<${userGuess}`;
     playagain.style.opacity = '0%'; // Remove qilmasdan shunchaki yashirish yaxshiroq

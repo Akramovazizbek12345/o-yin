@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>guest number</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="buttonlar">
+    <button class="buttonlar_blue" onclick="boshlash(10, 5)">0 > 10</button>
+    <button class="buttonlar_blue" onclick="boshlash(50, 15)">0 > 50</button>
+    <button class="buttonlar_blue" onclick="boshlash(100, 30)">0 > 100</button>
+  </div>
+
+  <div id="gameArea" style="display: none;">
+    <h2 id="text_max"></h2>
+    <input type="text" id="sonkiritadigan_input" placeholder="Raqam kiriting">
+    <br>
+    <button class="buttonlar_blue" onclick="Tektirish()">Tekshirish</button>
+    <p id="katta_kichiklik"></p>
+    <p id="imkoniyat"></p>
+  </div>
+  <a href="guest.html" id="qaytish">Orqaga qaytish</a>
+  <script src="guest.js"></script>
+</body>
+
+</html>
