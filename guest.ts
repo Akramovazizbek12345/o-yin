@@ -27,7 +27,7 @@ button.onclick = function () {
 
   } else if (rando < userGuess) {
     dap.innerHTML = `<${userGuess}`;
-    playagain.style.opacity = '0%'; // Remove qilmasdan shunchaki yashirish yaxshiroq
+    playagain.style.opacity = '0%';
   } else if (rando > userGuess) {
     pad.innerHTML = `${userGuess}>`;
     playagain.style.opacity = '0%';
